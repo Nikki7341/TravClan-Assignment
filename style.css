@@ -1,0 +1,38 @@
+.css-serial {
+      counter-reset: serial-number;  /* Set the serial number counter to 0 */
+}
+    
+.css-serial td:first-child:before {
+      counter-increment: serial-number;  /* Increment the serial number counter */
+      content: counter(serial-number);  /* Display the counter */
+}
+
+.avatar {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      border: 1px solid grey;
+}
+.avatar2 {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      border: 5px solid grey;
+}
+
+#heading {
+      font-size: 2.7em;
+      color: #3c3a5f;
+      font-weight: 700
+}
+#para {
+      font-size: 1em;
+      color: #3c3a5f;
+      font-weight: 600      
+}
+p {
+      font-size: 1em;
+      color: #3c3a5f;
+      font-weight: 600; 
+      line-height:10px  
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/TravClan-Assignment/static/js/main.1a7a019f.chunk.js",
+    "main.js.map": "/TravClan-Assignment/static/js/main.1a7a019f.chunk.js.map",
+    "runtime-main.js": "/TravClan-Assignment/static/js/runtime-main.9d8c6bcf.js",
+    "runtime-main.js.map": "/TravClan-Assignment/static/js/runtime-main.9d8c6bcf.js.map",
+    "static/css/2.d45d6843.chunk.css": "/TravClan-Assignment/static/css/2.d45d6843.chunk.css",
+    "static/js/2.aea7559a.chunk.js": "/TravClan-Assignment/static/js/2.aea7559a.chunk.js",
+    "static/js/2.aea7559a.chunk.js.map": "/TravClan-Assignment/static/js/2.aea7559a.chunk.js.map",
+    "index.html": "/TravClan-Assignment/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/TravClan-Assignment/static/css/2.d45d6843.chunk.css.map",
+    "static/js/2.aea7559a.chunk.js.LICENSE.txt": "/TravClan-Assignment/static/js/2.aea7559a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d8c6bcf.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.aea7559a.chunk.js",
+    "static/js/main.1a7a019f.chunk.js"
+  ]
+}
