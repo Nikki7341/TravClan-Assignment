@@ -47,10 +47,10 @@ export default function MaxWidthDialog({UserId}) {
       <div className="conatiner card m-2 p-2">
             <div className="row">
                   <div className="col-6">
-                  <p><img src={userData.avatarUrl} alt="User_image" className="avatar" /> {userData.firstname} {userData.lastname}</p>
-                  <p>{userData.email}</p>
+                  <p><img src={userData.avatarUrl} alt="User_image" className="avatar2" /> {userData.firstname} {userData.lastname}</p>
+                  
                   </div>
-                  <div className="col-6">
+                  <div className="col-6 pt-3">
                   <p>{userData.hasPremium ? "Active" : "Not Active"}</p>
                   <p>{userData.email}</p>
                   <p>{userData.phone}</p>
@@ -58,7 +58,7 @@ export default function MaxWidthDialog({UserId}) {
                               </div>
                               <table class="css-serial table table-hover">
                   <thead>
-                  <tr>
+                  <tr id="para">
                         <th scope="col">S No.</th>
                         <th scope="col">Id</th>
                         <th scope="col">Created</th>
@@ -70,7 +70,7 @@ export default function MaxWidthDialog({UserId}) {
                   {
                         userData?.bids?.map(y => 
                         
-                  <tr>  
+                  <tr id="para">  
                         <td>)</td>
                         <th scope="row">{y.id}</th>
                         <td>{y.created}</td>

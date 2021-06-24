@@ -20,9 +20,9 @@ const App = () => {
 
   return (
     <>
-    <div className="container">
-    <div className="row p-5">
-    <h1 className="text-center">Trav Clan Assignment</h1>
+    <div className="container card shadow-lg rounded m-5 p-2 justify-content-center">
+    <div className="row  m-2 p-2 justify-content-center">
+    <h1 id="heading" className="text-start">Trav Clan Assignment</h1>
     </div>
     <Table data={data} />
     </div>   
